@@ -40,4 +40,6 @@ $("body").templateEngine({
   })
 ```
 
+Try it on codepen https://codepen.io/bommox/pen/BmPErg
+
 ## Features

@@ -1,0 +1,24 @@
+{
+  "name": "jquery-template-engine",
+  "version": "1.0.0",
+  "description": "Simple jQuery Template Engine",
+  "main": "dist/jquery.template-engine.js",
+  "scripts": {
+    "build": "babel src/jquery.template-engine.js -o dist/jquery.template-engine.js && uglifyjs dist/jquery.template-engine.js -o dist/jquery.template-engine.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bommox/jquery-template-engine.git"
+  },
+  "author": "Jorge Blom-Dahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bommox/jquery-template-engine/issues"
+  },
+  "homepage": "https://github.com/bommox/jquery-template-engine#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "uglify-js": "^3.2.0"
+  }
+}

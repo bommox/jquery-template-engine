@@ -1,6 +1,6 @@
 {
   "name": "jquery-template-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple jQuery Template Engine",
   "main": "dist/jquery.template-engine.js",
   "scripts": {

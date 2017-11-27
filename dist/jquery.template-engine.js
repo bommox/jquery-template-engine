@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 (function ($) {
   var get = function get(data) {
@@ -74,7 +74,7 @@
     // and then values
     $(this).find("[data-te-v]").each(function () {
       var _key = $(this).data('te-v');
-      key = trim(_key.split("|")[0]);
+      var key = trim(_key.split("|")[0]);
       var value = getData(key);
       var formatter = $.templateEngine._formatters[norma(_key.split("|")[1])];
       if (formatter) {

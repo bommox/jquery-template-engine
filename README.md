@@ -4,7 +4,7 @@ jQuery simple template engine with support for loops and conditional data
 ## Installation
 Import this JS in your HTML
 ```html
-<script src="https://cdn.jsdelivr.net/npm/jquery-template-engine@1.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-template-engine@1.0.1"></script>
 ```
 
 or install it via npm

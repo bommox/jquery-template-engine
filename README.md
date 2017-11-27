@@ -15,7 +15,7 @@ In your HTML, use the `data-te` attributes for preparing the templates:
 And then you can use:
 
 ```js
-$("body").xTemplate({
+$("body").templateEngine({
     selection : {
       country: 'Spain',
       city: 'Valencia'
